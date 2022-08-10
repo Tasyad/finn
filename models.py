@@ -2,7 +2,7 @@ from peewee import *
 from datetime import datetime
 
 db = PostgresqlDatabase(
-    'flask',
+    'flask_db',
     host = 'localhost',
     port = 5432,
     user = 'flask_user',
